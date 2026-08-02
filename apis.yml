@@ -1,7 +1,29 @@
 aid: versive
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/versive.png
 name: Versive
-description: Versive is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Versive was a Seattle-based artificial-intelligence and machine-learning
+  cybersecurity company (originally founded as Context Relevant) whose flagship
+  product, the Versive Security Engine (VSE), applied machine learning to network
+  and security telemetry to automatically surface adversary campaigns and
+  in-progress breaches for security operations teams. Backed by Bloomberg Beta
+  and other investors, Versive was acquired by managed-detection-and-response
+  provider eSentire in October 2018, after which its technology was folded into
+  eSentire's MDR platform and the independent Versive website (versive.com) was
+  retired. This profile is retained in the API Evangelist network as a portfolio
+  lead; the enrichment pipeline found no live, independent Versive developer or
+  API surface to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/versive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,34 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: esentire
+x-acquired-date: '2018-10'
+x-former-name: Context Relevant
+x-defunct-domain: versive.com
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Security
+- Cybersecurity
+- Artificial Intelligence
+- Machine Learning
+- Threat Detection
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: >-
+    Defunct/acquired company (eSentire, Oct 2018); versive.com no longer resolves
+    (ENOTFOUND). No live API surface, OpenAPI, developer portal, packages, or
+    well-known documents to harvest. No artifacts producible without fabrication.
