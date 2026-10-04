@@ -55,7 +55,7 @@ tags:
 - Security
 - Cybersecurity
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Threat Detection
 - Acquired
 tags_raw:
@@ -66,6 +66,7 @@ tags_raw:
 - Machine Learning
 - Threat Detection
 - Acquired
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
